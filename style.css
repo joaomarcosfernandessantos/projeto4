@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(img/img.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+}
+
+ul{
+    display: flex;
+    padding: 18px;
+    gap: 50px;
+    
+}
+
+ul,a{
+    color: white;
+}
+
+.conteiner{
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+
+a{
+    font-size: 21px;
+    text-decoration: none;
+    align-items: flex-end;
+}
+
+
+body::after{
+    content: "";
+  width: inherit;
+  height: inherit;
+  position: fixed;
+  inset: 0;
+  z-index: -1; 
+  background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+}
+
+main{
+    height: 490px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.parag{
+    color: rgb(252, 252, 252);
+    font-size: 20px;
+    padding: 5px;
+    line-height: 1.4em;
+
+    margin-top: 250px;
+}
+
+.botao{
+    display: flex;
+    align-items: center;
+} 
+
+.botao a{
+    color: rgb(243, 243, 243);
+    margin-right: 40px;
+    text-decoration: none;
+    background-color: rgb(6, 23, 206);
+    padding: 10px 20px;
+    border-radius: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+.botao button{
+    color: rgb(243, 243, 243);
+    margin-right: 40px;
+    text-decoration: none;
+    background-color: rgb(6, 23, 206);
+    padding: 10px 20px;
+    border-radius: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none;
+    border: 0;
+    font-size: 21px;
+    text-align: center;
+    transition: 1ms;
+}
+
+.botao a:hover{
+    background-color: rgba(228, 28, 25, 0.863);
+    color: rgb(234, 234, 234);
+}
+
